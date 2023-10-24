@@ -17,4 +17,17 @@
 
 ## Custom TODOs
 
-- [ ] TODO
+- [x] Config TailwindCSS
+- [x] Create HTML skeleton
+- [ ] Add CSS and update HTML elements for mobile view
+  - [ ] For about section
+  - [ ] For projects section
+  - [ ] For footer section
+- [ ] Add CSS and update HTML elements for desktop view
+  - [ ] For about section
+  - [ ] For projects section
+  - [ ] For footer section
+- [ ] Add CSS and update HTML elements for tablet view (optional)
+  - [ ] For about section
+  - [ ] For projects section
+  - [ ] For footer section

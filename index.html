@@ -7,30 +7,175 @@
     <link rel="stylesheet" href="assets/styles.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      // tailwind.config = {
-      //   theme: {
-      //     extend: {
-      //       colors: {
-      //         "my-white": "#ffffff",
-      //         "my-black": "#000000",
-      //         "off-black": "#333333",
-      //         "my-teal": "#1992d4",
-      //         "my-orange": "#f0b429",
-      //         "light-gray": "#e2e8f0",
-      //         "medium-gray": "#909090",
-      //         "dark-gray": "#636363",
-      //       },
-      //     },
-      //     fontFamily: {
-      //       regular: ['"Roboto Regular"'],
-      //       medium: ['"Roboto Medium"'],
-      //       bold: ['"Roboto Bold"'],
-      //     },
-      //   },
-      // };
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "my-white": "#ffffff",
+              "my-black": "#000000",
+              "my-gray": "#565656",
+              "my-cyan": "#0891b2",
+              "github-black": "#181616",
+              "twitter-dark-blue": "#001c2e",
+              "my-red": "#001c2e",
+              "my-violet": "#7c75ca",
+              "my-green": "#7c75ca",
+              "my-pink": "#c363b4",
+              "my-orange": "#d88f39",
+              "my-blue": "#4ba2d2",
+            },
+          },
+          fontFamily: {
+            body: ['"Roboto Regular"'],
+            display: ['"PlayfairDisplay Regular"'],
+          },
+        },
+      };
     </script>
   </head>
   <body>
-    <div>TODO</div>
+    <div class="container">
+      <!-- about section -->
+      <section class="about">
+        <div class="image-container">
+          <img
+            class=""
+            src="./assets/images/woman-at-computer.jpg"
+            alt="A woman at a desk looking at an open laptop."
+          />
+          <h1 class="some">Ashley Williams</h1>
+        </div>
+        <div class="some">
+          <h2 class="some">About me</h2>
+          <p class="some">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod temport incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <div class="some">
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/github-original.svg"
+                alt="GitHub icon link"
+              />
+            </a>
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/linkedin-original.svg"
+                alt="LinkedIn icon link"
+              />
+            </a>
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/twitter-original.svg"
+                alt="Twitter icon link"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- work / projects section -->
+      <section class="about">
+        <h2 class="some">My work</h2>
+        <div class="project-card-container">
+          <!-- project 1 -->
+          <div class="card">
+            <div class="image-container">
+              <div class="dummy-image"></div>
+            </div>
+            <div class="description-container">
+              <div class="some">
+                <h3 class="some">Project name</h3>
+                <div class="project-links">
+                  <a href="#" class="some">
+                    <img
+                      src="./assets/icons/github-original.svg"
+                      alt="GitHub icon"
+                    />
+                  </a>
+                  <a href="#" class="some">
+                    <img
+                      src="./assets/icons/open-in-new.svg"
+                      alt="External link icon"
+                    />
+                  </a>
+                </div>
+              </div>
+              <p class="">
+                Short description of the project. Just do a couple sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <section class="footer">
+        <div class="some">
+          <h2 class="some">Contact me</h2>
+          <p class="some">
+            Please get in touch if you think our work could be mutually
+            beneficial!
+          </p>
+          <p class="some">1234 Random Road Random Town, California 12345</p>
+          <div class="some">
+            <div class="a">
+              <img
+                src="./assets/icons/phone-outline.svg"
+                alt="An icon of a old-style analog phone."
+                class="a"
+              />
+            </div>
+            <p class="some">555-555-5555</p>
+          </div>
+          <div class="some">
+            <div class="a">
+              <img
+                src="./assets/icons/email-outline.svg"
+                alt="An icon of an envelope."
+                class="a"
+              />
+            </div>
+            <p class="some">ashleywilliams.is.not.real@gmail.com</p>
+          </div>
+          <div class="some">
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/github-original.svg"
+                alt="GitHub icon link"
+              />
+            </a>
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/linkedin-original.svg"
+                alt="LinkedIn icon link"
+              />
+            </a>
+            <a href="#" class="some">
+              <img
+                class=""
+                src="./assets/icons/twitter-original.svg"
+                alt="Twitter icon link"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="some">
+          <img
+            src="./assets/images/woman-at-computer-smiling.jpg"
+            alt="A woman at a desk looking at an open laptop sitting on an office chair smiling with a phone in her hand."
+            class="ss"
+          />
+        </div>
+      </section>
+    </div>
   </body>
 </html>

@@ -19,10 +19,10 @@
 
 - [x] Config TailwindCSS
 - [x] Create HTML skeleton
-- [ ] Add CSS and update HTML elements for mobile view
-  - [ ] For about section
-  - [ ] For projects section
-  - [ ] For footer section
+- [x] Add CSS and update HTML elements for mobile view
+  - [x] For about section
+  - [x] For projects section
+  - [x] For footer section
 - [ ] Add CSS and update HTML elements for desktop view
   - [ ] For about section
   - [ ] For projects section

@@ -32,7 +32,7 @@
     </script>
   </head>
   <body>
-    <div class="container">
+    <div class="container min-w-full">
       <!-- about section -->
       <section
         class="about relative before:absolute before:bg-my-cyan before:-top-28 before:left-0 before:right-0 before:h-[470px] before:-skew-y-[30deg]"
@@ -303,70 +303,84 @@
         </div>
       </section>
       <!-- footer section -->
-      <section class="footer bg-my-cyan">
-        <div class="px-5 pt-8 pb-[86px]">
+      <section
+        class="footer bg-my-cyan md:flex md:flex-row md:justify-between md:pt-11 md:pb-16 md:px-[38px] md:gap-x-10 md:items-center lg:items-start lg:px-[124px] lg:py-[92px]"
+      >
+        <div class="px-5 pt-8 pb-[86px] md:p-0">
           <h2
-            class="font-display text-center text-[55px]/[50px] mb-4 text-white"
+            class="font-display text-center text-[55px]/[50px] mb-4 text-white md:text-left md:text-[40px]/[40px] lg:text-[62px]/[62px] lg:mb-10"
           >
             Contact me
           </h2>
-          <p class="text-2xl/7 text-white">
+          <p
+            class="text-2xl/7 text-white md:text-xl/7 md:max-w-[350px] lg:text-3xl lg:max-w-[80%]"
+          >
             Please get in touch if you think our work could be mutually
             beneficial!
           </p>
           <br />
           <br />
-          <p class="text-2xl/7 text-white">1234 Random Road</p>
-          <p class="text-2xl/7 text-white">Random Town, California 12345</p>
+          <p class="text-2xl/7 text-white md:text-xl/7 lg:text-3xl">
+            1234 Random Road
+          </p>
+          <p class="text-2xl/7 text-white md:text-xl/7 lg:text-3xl">
+            Random Town, California 12345
+          </p>
           <br />
           <br />
-          <div class="flex flex-row gap-x-4 items-center">
+          <div
+            class="flex flex-row gap-x-4 items-center lg:gap-x-[26px] lg:mb-7"
+          >
             <img
               src="./assets/icons/phone-outline.svg"
               alt="An icon of a old-style analog phone."
-              class="w-[26px] h-[26px] hidden"
+              class="w-[26px] h-[26px] hidden md:block lg:w-[40px] lg:h-[40px]"
             />
-            <p class="text-2xl/7 text-white">555-555-5555</p>
+            <p class="text-2xl/7 text-white md:text-xl/7 lg:text-3xl">
+              555-555-5555
+            </p>
           </div>
-          <div class="flex flex-row gap-x-4 items-center">
+          <div class="flex flex-row gap-x-4 items-center lg:gap-x-[26px]">
             <img
               src="./assets/icons/email-outline.svg"
               alt="An icon of an envelope."
-              class="w-[26px] h-[26px] hidden"
+              class="w-[26px] h-[26px] hidden md:block lg:w-[40px] lg:h-[40px]"
             />
-            <p class="text-2xl/7 text-white">fakeashleywilliams@gmail.com</p>
+            <p class="text-2xl/7 text-white md:text-xl/7 lg:text-3xl">
+              fakeashleywilliams@gmail.com
+            </p>
           </div>
-          <div class="flex flex-row justify-center gap-x-9 mt-7">
+          <div
+            class="flex flex-row justify-center gap-x-9 mt-7 md:justify-start md:gap-x-[30px] lg:mt-12 lg:gap-x-12"
+          >
             <a href="#" class="some">
               <img
-                class="w-[50px] h-[50px]"
+                class="w-[50px] h-[50px] md:w-[38px] md:h-[38px] lg:w-[68px] lg:h-[68px]"
                 src="./assets/icons/github-original.svg"
                 alt="GitHub icon link"
               />
             </a>
             <a href="#" class="some">
               <img
-                class="w-[50px] h-[50px]"
+                class="w-[50px] h-[50px] md:w-[38px] md:h-[38px] lg:w-[68px] lg:h-[68px]"
                 src="./assets/icons/linkedin-modified.svg"
                 alt="LinkedIn icon link"
               />
             </a>
             <a href="#" class="some">
               <img
-                class="w-[50px] h-[50px]"
+                class="w-[50px] h-[50px] md:w-[38px] md:h-[38px] lg:w-[68px] lg:h-[68px]"
                 src="./assets/icons/twitter-original.svg"
                 alt="Twitter icon link"
               />
             </a>
           </div>
         </div>
-        <div class="some">
-          <img
-            src="./assets/images/woman-at-computer-smiling.jpg"
-            alt="A woman at a desk looking at an open laptop sitting on an office chair smiling with a phone in her hand."
-            class="h-[560px] object-cover"
-          />
-        </div>
+        <img
+          src="./assets/images/woman-at-computer-smiling.jpg"
+          alt="A woman at a desk looking at an open laptop sitting on an office chair smiling with a phone in her hand."
+          class="h-[560px] object-cover w-full md:h-auto md:min-h-[450px] md:max-w-[45%] lg:max-w-[60%]"
+        />
       </section>
     </div>
   </body>

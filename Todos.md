@@ -26,8 +26,8 @@
 - [ ] Add CSS and update HTML elements for desktop view
   - [ ] For about section
   - [ ] For projects section
-  - [ ] For footer section
+  - [x] For footer section
 - [ ] Add CSS and update HTML elements for tablet view (optional)
   - [ ] For about section
   - [ ] For projects section
-  - [ ] For footer section
+  - [x] For footer section

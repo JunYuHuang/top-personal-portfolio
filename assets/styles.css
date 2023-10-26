@@ -7,7 +7,7 @@
 @font-face{
   font-family: "PlayfairDisplay Regular";
   src: local("PlayfairDisplay Regular"),
-      url("font/PlayfairDisplay-Regular.ttf");
+      url("fonts/PlayfairDisplay-Regular.ttf");
 }
 
 body {
